@@ -1,0 +1,197 @@
+{
+  "personal": {
+    "name": "Kirati Rattanaporn",
+    "nickname": "Win",
+    "title": "Technology and Creative Enthusiast",
+    "location": "Bangkok, Thailand",
+    "email": "contact@devw.space",
+    "phone": "+66 XX XXX XXXX",
+    "website": "https://devw.space"
+  },
+  "about": {
+    "introduction": "Hello, I'm Win (Kirati Rattanaporn), a passionate technology and creative enthusiast from Bangkok, Thailand. Currently in Grade 10, I have a strong interest in technology, astronomy, photography, and film.",
+    "details": [
+      "🎓 Grade 10 Student (Aiming for SPSM - Multimedia)",
+      "🎯 Aspiring Communication Arts Student (Chulalongkorn University)", 
+      "🏆 Multiple national gold medals in Robotics (2022-2024)",
+      "🎬 Passionate about filmmaking, photography, and technology",
+      "⭐ Awards in robotics, English contests, and athletics"
+    ],
+    "systemInfo": {
+      "os": "Windows 11 / Linux Dual Boot",
+      "terminal": "Windows Terminal / Bash",
+      "editor": "VS Code / Notepad++",
+      "languages": ["JavaScript", "HTML", "CSS", "Python"],
+      "databases": ["JSON", "Local Storage", "Firebase"],
+      "tools": ["Git", "GitHub", "Figma", "Adobe Suite"]
+    }
+  },
+  "skills": {
+    "frontend": [
+      "HTML5 / CSS3",
+      "JavaScript (ES6+)",
+      "React / JSX", 
+      "Tailwind CSS",
+      "Responsive Design",
+      "Web APIs"
+    ],
+    "creative": [
+      "Video Editing",
+      "Photography",
+      "UI/UX Design",
+      "Adobe Creative Suite",
+      "Concept Development",
+      "Storytelling"
+    ],
+    "technical": [
+      "Robotics Programming",
+      "Arduino / Microcontrollers",
+      "Python",
+      "Problem Solving",
+      "System Design",
+      "Hardware Integration"
+    ],
+    "multimedia": [
+      "Filmmaking",
+      "Content Creation",
+      "Digital Art",
+      "Animation Basics",
+      "Audio Editing",
+      "Visual Effects"
+    ],
+    "tools": [
+      "Git / GitHub",
+      "VS Code",
+      "Figma",
+      "Adobe Premiere Pro",
+      "Photoshop",
+      "DaVinci Resolve"
+    ]
+  },
+  "projects": [
+    {
+      "id": "devw-space",
+      "name": "Devw-2.5",
+      "description": "Personal hub and advanced terminal portfolio showcasing my work, projects, and creative journey. Features interactive terminal interface with multiple themes and commands.",
+      "technologies": ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
+      "features": [
+        "Interactive terminal interface with command system",
+        "Multiple theme support (dark, hacker, light)",
+        "Typewriter animations and special effects",
+        "Responsive design for all devices",
+        "Command history and tab completion",
+        "Hidden easter eggs and secret commands"
+      ],
+      "liveUrl": "https://devw.space",
+      "repoUrl": "https://github.com/DPINE8302/Devw-2.5.git",
+      "status": "Completed"
+    },
+    {
+      "id": "terminal-portfolio-v14",
+      "name": "Terminal Portfolio v1.4",
+      "description": "Latest version of my interactive terminal portfolio with enhanced features, better UX, and modern web technologies.",
+      "technologies": ["React", "Vite", "CSS Variables", "Framer Motion"],
+      "features": [
+        "Draggable window system with z-index management",
+        "Matrix rain canvas animation background",
+        "CRT scanline and flicker effects",
+        "Global theming system with smooth transitions",
+        "Glitch effects during theme changes",
+        "Mobile-responsive terminal interface"
+      ],
+      "liveUrl": "https://terminal-portfolio-v14.vercel.app",
+      "repoUrl": "https://github.com/DPINE8302/Terminal.git",
+      "status": "Completed"
+    },
+    {
+      "id": "snakky-game",
+      "name": "Snakky Game",
+      "description": "Classic Snake game recreation with modern web technologies. Features smooth gameplay, score tracking, and responsive controls.",
+      "technologies": ["HTML5", "CSS3", "JavaScript", "Canvas API"],
+      "features": [
+        "Smooth snake movement with collision detection",
+        "Score tracking and high score system",
+        "Responsive controls (keyboard and touch)",
+        "Game over screen with restart functionality",
+        "Clean, minimalist design",
+        "Mobile-friendly gameplay"
+      ],
+      "liveUrl": "https://dpine8302.github.io/Snakky-Game/",
+      "repoUrl": "https://github.com/DPINE8302/Snakky-Game.git",
+      "status": "Completed"
+    },
+    {
+      "id": "draft-portfolio",
+      "name": "Draft Portfolio",
+      "description": "Early portfolio concept showcasing my initial web development skills and design aesthetic. Clean, minimalist approach to personal branding.",
+      "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"],
+      "features": [
+        "Clean, minimalist design approach",
+        "Responsive layout with mobile support",
+        "Smooth scrolling navigation",
+        "Project showcase with image galleries",
+        "Contact form integration",
+        "Fast loading performance"
+      ],
+      "liveUrl": "https://dpine8302.github.io/draft-port/",
+      "repoUrl": "https://github.com/DPINE8302/draft-port.git",
+      "status": "Completed"
+    },
+    {
+      "id": "robotics-projects",
+      "name": "Robotics Competition Projects",
+      "description": "Collection of robotics projects that earned multiple national gold medals in competitions from 2022-2024. Focus on autonomous navigation and task completion.",
+      "technologies": ["Arduino", "C++", "Sensors", "Motors", "Python"],
+      "features": [
+        "Autonomous navigation systems",
+        "Object detection and manipulation",
+        "Sensor integration and data processing",
+        "Real-time decision making algorithms",
+        "Competition-ready robust design",
+        "Team collaboration and documentation"
+      ],
+      "liveUrl": null,
+      "repoUrl": "https://github.com/DPINE8302/robotics-projects",
+      "status": "Ongoing"
+    },
+    {
+      "id": "creative-showcase",
+      "name": "Creative Content & Films",
+      "description": "Video projects, photography work, and creative content showcasing storytelling abilities and technical skills in multimedia production.",
+      "technologies": ["Adobe Premiere Pro", "After Effects", "Photoshop", "DaVinci Resolve"],
+      "features": [
+        "Feature video concepts and short films",
+        "Photography portfolio with various styles",
+        "Video editing and post-production work",
+        "Motion graphics and visual effects",
+        "Storytelling through visual media",
+        "Collaborative creative projects"
+      ],
+      "liveUrl": "https://www.youtube.com/channel/UCMQefq5ku1GHvTm50Ysixyg",
+      "repoUrl": null,
+      "status": "Ongoing"
+    }
+  ],
+  "contact": {
+    "email": "contact@devw.space",
+    "phone": "+66 XX XXX XXXX",
+    "location": "Bangkok, Thailand",
+    "social": {
+      "github": "https://github.com/DPINE8302",
+      "instagram": "https://www.instagram.com/Win.rn",
+      "photography": "https://www.instagram.com/Win.albums",
+      "youtube": "https://www.youtube.com/channel/UCMQefq5ku1GHvTm50Ysixyg",
+      "wikipedia": "https://en.wikipedia.org/wiki/Draft:Kirati_Rattanaporn",
+      "website": "https://devw.space"
+    }
+  },
+  "commands": {
+    "whoami": "Display system information and personal details",
+    "skills": "Show technical skills and proficiencies",
+    "projects": "Browse my portfolio of projects",
+    "contact": "Get in touch with me",
+    "help": "Show available commands",
+    "clear": "Clear the terminal screen",
+    "theme": "Change the terminal theme"
+  }
+}
