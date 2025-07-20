@@ -1,0 +1,194 @@
+{
+  "personal": {
+    "name": "Kijtisak Pangmee",
+    "title": "Full Stack Developer",
+    "location": "Bangkok, Thailand",
+    "email": "kijtisak.pangmee@example.com",
+    "phone": "+66 12 345 6789",
+    "website": "https://kijtisak.dev"
+  },
+  "about": {
+    "introduction": "Hello! I'm Kijtisak, a passionate full-stack developer with expertise in modern web technologies. I love creating innovative solutions and building amazing digital experiences.",
+    "details": [
+      "🚀 3+ years of professional development experience",
+      "💻 Specialized in React, Node.js, and cloud technologies", 
+      "🎯 Focused on clean code and scalable architecture",
+      "🌱 Always learning and adapting to new technologies",
+      "🤝 Strong collaboration and problem-solving skills"
+    ],
+    "systemInfo": {
+      "os": "Linux Ubuntu 22.04 LTS",
+      "terminal": "Zsh with Oh My Zsh",
+      "editor": "VS Code / Neovim",
+      "languages": ["JavaScript", "TypeScript", "Python", "Go"],
+      "databases": ["PostgreSQL", "MongoDB", "Redis"],
+      "tools": ["Docker", "Kubernetes", "AWS", "Git"]
+    }
+  },
+  "skills": {
+    "frontend": [
+      "React / Next.js",
+      "Vue.js / Nuxt.js", 
+      "TypeScript",
+      "Tailwind CSS",
+      "SASS/SCSS",
+      "Webpack/Vite"
+    ],
+    "backend": [
+      "Node.js / Express",
+      "Python / Django",
+      "Go / Gin",
+      "REST APIs",
+      "GraphQL",
+      "Microservices"
+    ],
+    "database": [
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "MySQL",
+      "Firebase",
+      "Supabase"
+    ],
+    "devops": [
+      "Docker",
+      "Kubernetes",
+      "AWS / GCP",
+      "CI/CD Pipelines",
+      "Nginx",
+      "Linux Administration"
+    ],
+    "tools": [
+      "Git / GitHub",
+      "VS Code",
+      "Figma",
+      "Postman",
+      "Jest / Vitest",
+      "Cypress"
+    ]
+  },
+  "projects": [
+    {
+      "id": "terminal-portfolio",
+      "name": "Interactive Terminal Portfolio",
+      "description": "A retro-style terminal interface portfolio with draggable windows, multiple themes, and Matrix rain effects. Built with React and advanced CSS animations.",
+      "technologies": ["React", "CSS Variables", "Canvas API", "Zustand"],
+      "features": [
+        "6 different retro themes with global CSS variables",
+        "Draggable window system with z-index management",
+        "Matrix rain canvas animation",
+        "CRT scanline and flicker effects",
+        "Glitch transition animations",
+        "Responsive design for all devices"
+      ],
+      "liveUrl": "https://terminal-portfolio.vercel.app",
+      "repoUrl": "https://github.com/kijtisak/terminal-portfolio",
+      "status": "Completed"
+    },
+    {
+      "id": "ecommerce-platform",
+      "name": "NextCommerce Platform",
+      "description": "A full-stack e-commerce platform with advanced features including real-time inventory, payment processing, and admin dashboard.",
+      "technologies": ["Next.js", "TypeScript", "PostgreSQL", "Stripe", "Tailwind"],
+      "features": [
+        "Server-side rendering with Next.js 13+ App Router",
+        "Secure payment processing with Stripe",
+        "Real-time inventory management",
+        "Advanced product filtering and search",
+        "Admin dashboard with analytics",
+        "Multi-vendor support"
+      ],
+      "liveUrl": "https://nextcommerce-demo.vercel.app",
+      "repoUrl": "https://github.com/kijtisak/nextcommerce",
+      "status": "In Development"
+    },
+    {
+      "id": "task-management",
+      "name": "CollabTask Manager",
+      "description": "A collaborative task management application with real-time updates, team workspaces, and advanced project tracking features.",
+      "technologies": ["React", "Node.js", "Socket.io", "MongoDB", "Redis"],
+      "features": [
+        "Real-time collaboration with Socket.io",
+        "Drag-and-drop task boards (Kanban style)",
+        "Team workspaces and permissions",
+        "Time tracking and reporting",
+        "File attachments and comments",
+        "Email notifications and integrations"
+      ],
+      "liveUrl": "https://collabtask.vercel.app",
+      "repoUrl": "https://github.com/kijtisak/collabtask",
+      "status": "Completed"
+    },
+    {
+      "id": "ai-chat-app",
+      "name": "AI Chat Assistant",
+      "description": "An intelligent chat application powered by OpenAI's GPT models with conversation history, multiple AI personalities, and custom training.",
+      "technologies": ["React", "OpenAI API", "Node.js", "PostgreSQL", "WebSocket"],
+      "features": [
+        "Integration with OpenAI GPT-4 and GPT-3.5",
+        "Multiple AI personalities and contexts",
+        "Conversation history and search",
+        "Real-time streaming responses",
+        "Custom model fine-tuning",
+        "Voice input and text-to-speech"
+      ],
+      "liveUrl": "https://ai-chat-assistant.vercel.app",
+      "repoUrl": "https://github.com/kijtisak/ai-chat-assistant",
+      "status": "Beta"
+    },
+    {
+      "id": "weather-dashboard",
+      "name": "Weather Analytics Dashboard",
+      "description": "A comprehensive weather dashboard with location-based forecasts, historical data analysis, and interactive maps.",
+      "technologies": ["Vue.js", "D3.js", "OpenWeather API", "Mapbox", "Chart.js"],
+      "features": [
+        "Real-time weather data from multiple APIs",
+        "Interactive weather maps with overlays",
+        "Historical data analysis and trends",
+        "Custom location tracking",
+        "Weather alerts and notifications",
+        "Mobile-responsive design"
+      ],
+      "liveUrl": "https://weather-analytics.vercel.app",
+      "repoUrl": "https://github.com/kijtisak/weather-dashboard",
+      "status": "Completed"
+    },
+    {
+      "id": "blockchain-explorer",
+      "name": "Crypto Explorer",
+      "description": "A blockchain explorer and cryptocurrency tracking application with real-time price feeds, portfolio management, and market analysis.",
+      "technologies": ["React", "Web3.js", "Node.js", "CoinGecko API", "Chart.js"],
+      "features": [
+        "Real-time cryptocurrency price tracking",
+        "Blockchain transaction explorer",
+        "Portfolio management and tracking",
+        "Market analysis and charts", 
+        "Price alerts and notifications",
+        "Multi-chain support (ETH, BTC, BSC)"
+      ],
+      "liveUrl": "https://crypto-explorer.vercel.app",
+      "repoUrl": "https://github.com/kijtisak/crypto-explorer",
+      "status": "In Development"
+    }
+  ],
+  "contact": {
+    "email": "kijtisak.pangmee@example.com",
+    "phone": "+66 12 345 6789",
+    "location": "Bangkok, Thailand",
+    "social": {
+      "github": "https://github.com/kijtisak",
+      "linkedin": "https://linkedin.com/in/kijtisak-pangmee",
+      "twitter": "https://twitter.com/kijtisak_dev",
+      "website": "https://kijtisak.dev"
+    }
+  },
+  "commands": {
+    "whoami": "Display system information and personal details",
+    "skills": "Show technical skills and proficiencies",
+    "projects": "Browse my portfolio of projects",
+    "contact": "Get in touch with me",
+    "help": "Show available commands",
+    "clear": "Clear the terminal screen",
+    "theme": "Change the terminal theme"
+  }
+}
