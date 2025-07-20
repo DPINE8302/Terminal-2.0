@@ -14,9 +14,11 @@ const ContactContent = () => {
 
   const socialLinks = [
     { icon: FiGithub, label: 'GitHub', href: contact.social.github },
-    { icon: FiLinkedin, label: 'LinkedIn', href: contact.social.linkedin },
-    { icon: FiTwitter, label: 'Twitter', href: contact.social.twitter },
-    { icon: FiGlobe, label: 'Website', href: contact.social.website }
+    { icon: FiGlobe, label: 'Website', href: contact.social.website },
+    { icon: FiGlobe, label: 'Instagram', href: contact.social.instagram },
+    { icon: FiGlobe, label: 'Photography', href: contact.social.photography },
+    { icon: FiGlobe, label: 'YouTube', href: contact.social.youtube },
+    { icon: FiGlobe, label: 'Wikipedia', href: contact.social.wikipedia }
   ]
 
   return (
@@ -91,10 +93,10 @@ const ContactContent = () => {
             <span style={{ color: 'var(--primary-color)' }}>$</span> email {contact.email}
           </div>
           <div style={{ marginBottom: '8px' }}>
-            <span style={{ color: 'var(--primary-color)' }}>$</span> linkedin {contact.social.linkedin}
+            <span style={{ color: 'var(--primary-color)' }}>$</span> github {contact.social.github}
           </div>
           <div>
-            <span style={{ color: 'var(--primary-color)' }}>$</span> github {contact.social.github}
+            <span style={{ color: 'var(--primary-color)' }}>$</span> website {contact.social.website}
           </div>
         </div>
       </div>
@@ -103,7 +105,7 @@ const ContactContent = () => {
         <TypedText 
           strings={[
             'Response time: Usually within 24 hours',
-            'Preferred contact: Email or LinkedIn',
+            'Preferred contact: Email or Instagram',
             'Time zone: UTC+7 (Bangkok, Thailand)'
           ]} 
           typeSpeed={40} 

@@ -1,185 +1,188 @@
 {
   "personal": {
-    "name": "Kijtisak Pangmee",
-    "title": "Full Stack Developer",
+    "name": "Kirati Rattanaporn",
+    "nickname": "Win",
+    "title": "Technology and Creative Enthusiast",
     "location": "Bangkok, Thailand",
-    "email": "kijtisak.pangmee@example.com",
-    "phone": "+66 12 345 6789",
-    "website": "https://kijtisak.dev"
+    "email": "contact@devw.space",
+    "phone": "+66 XX XXX XXXX",
+    "website": "https://devw.space"
   },
   "about": {
-    "introduction": "Hello! I'm Kijtisak, a passionate full-stack developer with expertise in modern web technologies. I love creating innovative solutions and building amazing digital experiences.",
+    "introduction": "Hello, I'm Win (Kirati Rattanaporn), a passionate technology and creative enthusiast from Bangkok, Thailand. Currently in Grade 10, I have a strong interest in technology, astronomy, photography, and film.",
     "details": [
-      "🚀 3+ years of professional development experience",
-      "💻 Specialized in React, Node.js, and cloud technologies", 
-      "🎯 Focused on clean code and scalable architecture",
-      "🌱 Always learning and adapting to new technologies",
-      "🤝 Strong collaboration and problem-solving skills"
+      "🎓 Grade 10 Student (Aiming for SPSM - Multimedia)",
+      "🎯 Aspiring Communication Arts Student (Chulalongkorn University)", 
+      "🏆 Multiple national gold medals in Robotics (2022-2024)",
+      "🎬 Passionate about filmmaking, photography, and technology",
+      "⭐ Awards in robotics, English contests, and athletics"
     ],
     "systemInfo": {
-      "os": "Linux Ubuntu 22.04 LTS",
-      "terminal": "Zsh with Oh My Zsh",
-      "editor": "VS Code / Neovim",
-      "languages": ["JavaScript", "TypeScript", "Python", "Go"],
-      "databases": ["PostgreSQL", "MongoDB", "Redis"],
-      "tools": ["Docker", "Kubernetes", "AWS", "Git"]
+      "os": "Windows 11 / Linux Dual Boot",
+      "terminal": "Windows Terminal / Bash",
+      "editor": "VS Code / Notepad++",
+      "languages": ["JavaScript", "HTML", "CSS", "Python"],
+      "databases": ["JSON", "Local Storage", "Firebase"],
+      "tools": ["Git", "GitHub", "Figma", "Adobe Suite"]
     }
   },
   "skills": {
     "frontend": [
-      "React / Next.js",
-      "Vue.js / Nuxt.js", 
-      "TypeScript",
+      "HTML5 / CSS3",
+      "JavaScript (ES6+)",
+      "React / JSX", 
       "Tailwind CSS",
-      "SASS/SCSS",
-      "Webpack/Vite"
+      "Responsive Design",
+      "Web APIs"
     ],
-    "backend": [
-      "Node.js / Express",
-      "Python / Django",
-      "Go / Gin",
-      "REST APIs",
-      "GraphQL",
-      "Microservices"
+    "creative": [
+      "Video Editing",
+      "Photography",
+      "UI/UX Design",
+      "Adobe Creative Suite",
+      "Concept Development",
+      "Storytelling"
     ],
-    "database": [
-      "PostgreSQL",
-      "MongoDB",
-      "Redis",
-      "MySQL",
-      "Firebase",
-      "Supabase"
+    "technical": [
+      "Robotics Programming",
+      "Arduino / Microcontrollers",
+      "Python",
+      "Problem Solving",
+      "System Design",
+      "Hardware Integration"
     ],
-    "devops": [
-      "Docker",
-      "Kubernetes",
-      "AWS / GCP",
-      "CI/CD Pipelines",
-      "Nginx",
-      "Linux Administration"
+    "multimedia": [
+      "Filmmaking",
+      "Content Creation",
+      "Digital Art",
+      "Animation Basics",
+      "Audio Editing",
+      "Visual Effects"
     ],
     "tools": [
       "Git / GitHub",
       "VS Code",
       "Figma",
-      "Postman",
-      "Jest / Vitest",
-      "Cypress"
+      "Adobe Premiere Pro",
+      "Photoshop",
+      "DaVinci Resolve"
     ]
   },
   "projects": [
     {
-      "id": "terminal-portfolio",
-      "name": "Interactive Terminal Portfolio",
-      "description": "A retro-style terminal interface portfolio with draggable windows, multiple themes, and Matrix rain effects. Built with React and advanced CSS animations.",
-      "technologies": ["React", "CSS Variables", "Canvas API", "Zustand"],
+      "id": "devw-space",
+      "name": "Devw-2.5",
+      "description": "Personal hub and advanced terminal portfolio showcasing my work, projects, and creative journey. Features interactive terminal interface with multiple themes and commands.",
+      "technologies": ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
       "features": [
-        "6 different retro themes with global CSS variables",
+        "Interactive terminal interface with command system",
+        "Multiple theme support (dark, hacker, light)",
+        "Typewriter animations and special effects",
+        "Responsive design for all devices",
+        "Command history and tab completion",
+        "Hidden easter eggs and secret commands"
+      ],
+      "liveUrl": "https://devw.space",
+      "repoUrl": "https://github.com/DPINE8302/Devw-2.5.git",
+      "status": "Completed"
+    },
+    {
+      "id": "terminal-portfolio-v14",
+      "name": "Terminal Portfolio v1.4",
+      "description": "Latest version of my interactive terminal portfolio with enhanced features, better UX, and modern web technologies.",
+      "technologies": ["React", "Vite", "CSS Variables", "Framer Motion"],
+      "features": [
         "Draggable window system with z-index management",
-        "Matrix rain canvas animation",
+        "Matrix rain canvas animation background",
         "CRT scanline and flicker effects",
-        "Glitch transition animations",
-        "Responsive design for all devices"
+        "Global theming system with smooth transitions",
+        "Glitch effects during theme changes",
+        "Mobile-responsive terminal interface"
       ],
-      "liveUrl": "https://terminal-portfolio.vercel.app",
-      "repoUrl": "https://github.com/kijtisak/terminal-portfolio",
+      "liveUrl": "https://terminal-portfolio-v14.vercel.app",
+      "repoUrl": "https://github.com/DPINE8302/Terminal.git",
       "status": "Completed"
     },
     {
-      "id": "ecommerce-platform",
-      "name": "NextCommerce Platform",
-      "description": "A full-stack e-commerce platform with advanced features including real-time inventory, payment processing, and admin dashboard.",
-      "technologies": ["Next.js", "TypeScript", "PostgreSQL", "Stripe", "Tailwind"],
+      "id": "snakky-game",
+      "name": "Snakky Game",
+      "description": "Classic Snake game recreation with modern web technologies. Features smooth gameplay, score tracking, and responsive controls.",
+      "technologies": ["HTML5", "CSS3", "JavaScript", "Canvas API"],
       "features": [
-        "Server-side rendering with Next.js 13+ App Router",
-        "Secure payment processing with Stripe",
-        "Real-time inventory management",
-        "Advanced product filtering and search",
-        "Admin dashboard with analytics",
-        "Multi-vendor support"
+        "Smooth snake movement with collision detection",
+        "Score tracking and high score system",
+        "Responsive controls (keyboard and touch)",
+        "Game over screen with restart functionality",
+        "Clean, minimalist design",
+        "Mobile-friendly gameplay"
       ],
-      "liveUrl": "https://nextcommerce-demo.vercel.app",
-      "repoUrl": "https://github.com/kijtisak/nextcommerce",
-      "status": "In Development"
-    },
-    {
-      "id": "task-management",
-      "name": "CollabTask Manager",
-      "description": "A collaborative task management application with real-time updates, team workspaces, and advanced project tracking features.",
-      "technologies": ["React", "Node.js", "Socket.io", "MongoDB", "Redis"],
-      "features": [
-        "Real-time collaboration with Socket.io",
-        "Drag-and-drop task boards (Kanban style)",
-        "Team workspaces and permissions",
-        "Time tracking and reporting",
-        "File attachments and comments",
-        "Email notifications and integrations"
-      ],
-      "liveUrl": "https://collabtask.vercel.app",
-      "repoUrl": "https://github.com/kijtisak/collabtask",
+      "liveUrl": "https://dpine8302.github.io/Snakky-Game/",
+      "repoUrl": "https://github.com/DPINE8302/Snakky-Game.git",
       "status": "Completed"
     },
     {
-      "id": "ai-chat-app",
-      "name": "AI Chat Assistant",
-      "description": "An intelligent chat application powered by OpenAI's GPT models with conversation history, multiple AI personalities, and custom training.",
-      "technologies": ["React", "OpenAI API", "Node.js", "PostgreSQL", "WebSocket"],
+      "id": "draft-portfolio",
+      "name": "Draft Portfolio",
+      "description": "Early portfolio concept showcasing my initial web development skills and design aesthetic. Clean, minimalist approach to personal branding.",
+      "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"],
       "features": [
-        "Integration with OpenAI GPT-4 and GPT-3.5",
-        "Multiple AI personalities and contexts",
-        "Conversation history and search",
-        "Real-time streaming responses",
-        "Custom model fine-tuning",
-        "Voice input and text-to-speech"
+        "Clean, minimalist design approach",
+        "Responsive layout with mobile support",
+        "Smooth scrolling navigation",
+        "Project showcase with image galleries",
+        "Contact form integration",
+        "Fast loading performance"
       ],
-      "liveUrl": "https://ai-chat-assistant.vercel.app",
-      "repoUrl": "https://github.com/kijtisak/ai-chat-assistant",
-      "status": "Beta"
-    },
-    {
-      "id": "weather-dashboard",
-      "name": "Weather Analytics Dashboard",
-      "description": "A comprehensive weather dashboard with location-based forecasts, historical data analysis, and interactive maps.",
-      "technologies": ["Vue.js", "D3.js", "OpenWeather API", "Mapbox", "Chart.js"],
-      "features": [
-        "Real-time weather data from multiple APIs",
-        "Interactive weather maps with overlays",
-        "Historical data analysis and trends",
-        "Custom location tracking",
-        "Weather alerts and notifications",
-        "Mobile-responsive design"
-      ],
-      "liveUrl": "https://weather-analytics.vercel.app",
-      "repoUrl": "https://github.com/kijtisak/weather-dashboard",
+      "liveUrl": "https://dpine8302.github.io/draft-port/",
+      "repoUrl": "https://github.com/DPINE8302/draft-port.git",
       "status": "Completed"
     },
     {
-      "id": "blockchain-explorer",
-      "name": "Crypto Explorer",
-      "description": "A blockchain explorer and cryptocurrency tracking application with real-time price feeds, portfolio management, and market analysis.",
-      "technologies": ["React", "Web3.js", "Node.js", "CoinGecko API", "Chart.js"],
+      "id": "robotics-projects",
+      "name": "Robotics Competition Projects",
+      "description": "Collection of robotics projects that earned multiple national gold medals in competitions from 2022-2024. Focus on autonomous navigation and task completion.",
+      "technologies": ["Arduino", "C++", "Sensors", "Motors", "Python"],
       "features": [
-        "Real-time cryptocurrency price tracking",
-        "Blockchain transaction explorer",
-        "Portfolio management and tracking",
-        "Market analysis and charts", 
-        "Price alerts and notifications",
-        "Multi-chain support (ETH, BTC, BSC)"
+        "Autonomous navigation systems",
+        "Object detection and manipulation",
+        "Sensor integration and data processing",
+        "Real-time decision making algorithms",
+        "Competition-ready robust design",
+        "Team collaboration and documentation"
       ],
-      "liveUrl": "https://crypto-explorer.vercel.app",
-      "repoUrl": "https://github.com/kijtisak/crypto-explorer",
-      "status": "In Development"
+      "liveUrl": null,
+      "repoUrl": "https://github.com/DPINE8302/robotics-projects",
+      "status": "Ongoing"
+    },
+    {
+      "id": "creative-showcase",
+      "name": "Creative Content & Films",
+      "description": "Video projects, photography work, and creative content showcasing storytelling abilities and technical skills in multimedia production.",
+      "technologies": ["Adobe Premiere Pro", "After Effects", "Photoshop", "DaVinci Resolve"],
+      "features": [
+        "Feature video concepts and short films",
+        "Photography portfolio with various styles",
+        "Video editing and post-production work",
+        "Motion graphics and visual effects",
+        "Storytelling through visual media",
+        "Collaborative creative projects"
+      ],
+      "liveUrl": "https://www.youtube.com/channel/UCMQefq5ku1GHvTm50Ysixyg",
+      "repoUrl": null,
+      "status": "Ongoing"
     }
   ],
   "contact": {
-    "email": "kijtisak.pangmee@example.com",
-    "phone": "+66 12 345 6789",
+    "email": "contact@devw.space",
+    "phone": "+66 XX XXX XXXX",
     "location": "Bangkok, Thailand",
     "social": {
-      "github": "https://github.com/kijtisak",
-      "linkedin": "https://linkedin.com/in/kijtisak-pangmee",
-      "twitter": "https://twitter.com/kijtisak_dev",
-      "website": "https://kijtisak.dev"
+      "github": "https://github.com/DPINE8302",
+      "instagram": "https://www.instagram.com/Win.rn",
+      "photography": "https://www.instagram.com/Win.albums",
+      "youtube": "https://www.youtube.com/channel/UCMQefq5ku1GHvTm50Ysixyg",
+      "wikipedia": "https://en.wikipedia.org/wiki/Draft:Kirati_Rattanaporn",
+      "website": "https://devw.space"
     }
   },
   "commands": {

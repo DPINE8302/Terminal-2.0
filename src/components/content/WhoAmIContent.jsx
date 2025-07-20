@@ -30,14 +30,14 @@ const WhoAmIContent = () => {
         <div style={{ marginBottom: '20px' }}>
           {showGlitch ? (
             <>
-              <div><GlitchyText text={`"name": "${personal.name}"`} duration={2500} /></div>
+              <div><GlitchyText text={`"name": "${personal.name} (${personal.nickname})"`} duration={2500} /></div>
               <div><GlitchyText text={`"title": "${personal.title}"`} duration={2800} /></div>
               <div><GlitchyText text={`"location": "${personal.location}"`} duration={3000} /></div>
               <div><GlitchyText text={`"email": "${personal.email}"`} duration={3200} /></div>
             </>
           ) : (
             <>
-              <div><strong>Name:</strong> {personal.name}</div>
+              <div><strong>Name:</strong> {personal.name} ({personal.nickname})</div>
               <div><strong>Title:</strong> {personal.title}</div>
               <div><strong>Location:</strong> {personal.location}</div>
               <div><strong>Email:</strong> {personal.email}</div>

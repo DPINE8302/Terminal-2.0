@@ -25,7 +25,7 @@ const Header = () => {
     <header className="header">
       <div className="header-content">
         <div className="terminal-title">
-          terminal@portfolio:~$
+          Kirati Rattanaporn
         </div>
         
         <div className="command-buttons">
