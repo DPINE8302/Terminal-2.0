@@ -59,7 +59,7 @@ const WhoAmIContent = () => {
             <div style={{ marginTop: '20px' }}>
               {about.details.map((detail, index) => (
                 <div key={index} style={{ marginBottom: '8px', paddingLeft: '10px', position: 'relative' }}>
-                  <span style={{ position: 'absolute', left: '0', color: 'var(--primary-color)' }}>></span>
+                  <span style={{ position: 'absolute', left: '0', color: 'var(--primary-color)' }}>{'>'}</span>
                   {detail}
                 </div>
               ))}
