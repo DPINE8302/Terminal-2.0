@@ -1,4 +1,4 @@
-# Terminal Portfolio v1.4 - Kirati Rattanaporn
+# Terminal Portfolio v1.5.2 - Kirati Rattanaporn
 
 An interactive retro-terminal style portfolio featuring draggable windows, multiple themes, and dynamic effects.
 
@@ -116,4 +116,8 @@ This project is open source and available under the MIT License.
 
 ---
 
-**Made with ❤️ by Kirati Rattanaporn (Win)**
+**Version 1.5.2**
+
+© 2025 Wiqnnc_. All Rights Reserved.
+
+Made with ❤️ by Win.

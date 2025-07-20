@@ -25,6 +25,9 @@ const Footer = () => {
     <footer className="footer">
       <span className="role">technology and creative enthusiast</span>
       <span className="time">{currentTime}</span>
+      <span className="version">Version 1.5.2</span>
+      <span className="copyright">© 2025 Wiqnnc_. All Rights Reserved.</span>
+      <span className="made-by">Made with <span style={{color: 'red'}}>&hearts;</span> by Win.</span>
     </footer>
   )
 }
