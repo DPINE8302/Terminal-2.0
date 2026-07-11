@@ -141,6 +141,11 @@ This project is open source and available under the MIT License.
 
 ---
 
+**Made with ❤️ by Kirati Rattanaporn (Win)**
+
+Version 1.5.2
+© 2025 Wiqnnc_. All Rights Reserved.
+Made with love by Win.
 **Version 1.5.2**  
 **© 2025 Wiqnnc_. All Rights Reserved.**  
 **Made with love by Win.**
