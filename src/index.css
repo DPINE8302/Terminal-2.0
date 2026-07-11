@@ -539,6 +539,31 @@ body {
   text-align: center;
   color: var(--text-color);
   font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  opacity: 0.8;
+  font-size: 10px;
+}
+
+.footer-info .version {
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+.footer-info .copyright {
+  color: var(--text-color);
+}
+
+.footer-info .author {
+  color: var(--accent-color);
+  font-style: italic;
 }
 
 /* Responsive Design */

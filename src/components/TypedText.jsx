@@ -1,5 +1,5 @@
 import React from 'react'
-import Typed from 'react-typed'
+import { ReactTyped as Typed } from 'react-typed'
 
 const TypedText = ({ strings, typeSpeed = 50, backSpeed = 30, loop = false, showCursor = true }) => {
   return (

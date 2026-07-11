@@ -51,6 +51,31 @@ An interactive retro-terminal style portfolio featuring draggable windows, multi
 4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
+## 🚀 Deployment
+
+This project is configured for automatic deployment to GitHub Pages.
+
+### GitHub Pages Deployment
+
+1. **Enable GitHub Pages** in your repository settings
+2. **Set source** to "GitHub Actions"
+3. **Push to main branch** - The GitHub Actions workflow will automatically build and deploy
+
+The deployment workflow:
+- Runs on every push to the main branch
+- Builds the project using Vite
+- Deploys to GitHub Pages automatically
+
+### Manual Deployment
+
+```bash
+# Build for production
+npm run build
+
+# Preview the build locally
+npm run preview
+```
+
 ## 📱 Available Commands
 
 - `whoami` - Display system information and personal details
@@ -121,3 +146,6 @@ This project is open source and available under the MIT License.
 Version 1.5.2
 © 2025 Wiqnnc_. All Rights Reserved.
 Made with love by Win.
+**Version 1.5.2**  
+**© 2025 Wiqnnc_. All Rights Reserved.**  
+**Made with love by Win.**

@@ -28,6 +28,11 @@ const Footer = () => {
       <span className="version">Version 1.5.2</span>
       <span className="copyright">© 2025 Wiqnnc_. All Rights Reserved.</span>
       <span className="made-by">Made with love by Win.</span>
+      <div className="footer-info">
+        <span className="version">Version 1.5.2</span>
+        <span className="copyright">© 2025 Wiqnnc_. All Rights Reserved.</span>
+        <span className="author">Made with love by Win.</span>
+      </div>
     </footer>
   )
 }
