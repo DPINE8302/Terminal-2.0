@@ -1,151 +1,83 @@
-# Terminal Portfolio v1.5.2 - Kirati Rattanaporn
+# Terminal 2.0
 
-An interactive retro-terminal style portfolio featuring draggable windows, multiple themes, and dynamic effects.
+Kirati “Win” Rattanaporn’s keyboard-first interactive portfolio. Terminal 2.0 pairs a functional command line with a responsive, draggable desktop window system and a restrained premium visual language.
 
-## ✨ Features
+Live site: https://dpine8302.github.io/Terminal-2.0/
 
-- **Interactive Terminal Interface**: Command-based navigation with draggable windows
-- **Multiple Themes**: 6 different themes (Matrix, Fire, Ice, Neon, Error, Inverse)
-- **Matrix Rain Animation**: Canvas-based background effects
-- **CRT Effects**: Scanlines and flickering for authentic retro feel
-- **Glitch Transitions**: Smooth theme switching with glitch effects
-- **Responsive Design**: Works on desktop, tablet, and mobile
-- **TypeScript Support**: Full type safety throughout
-- **Modern Tech Stack**: React, Vite, Zustand for state management
+## Stack
 
-## 🛠️ Built With
+React 18, Vite 5, Zustand, react-draggable, Vitest, Testing Library, and plain CSS. The application is JavaScript—not TypeScript—and has no runtime API or secrets.
 
-- **Framework**: React 18 with Vite
-- **Styling**: CSS Variables + CSS Modules
-- **State Management**: Zustand
-- **Animations**: Framer Motion
-- **Icons**: React Icons
-- **Draggable**: react-draggable
-- **Typography**: react-typed
+## Features
 
-## 🚀 Getting Started
+- Typed terminal input, command history, Tab completion, known/unknown command feedback, and clickable command shortcuts
+- Focused desktop windows with duplicate prevention, focus/z-index, minimize, close, bounded dragging, and touch-friendly stacked mobile panels
+- Centralized portfolio content in `src/data/portfolio.js`
+- Dark, accessible light, and optional amber terminal themes with local persistence
+- Responsive layouts for desktop, tablet, and phone viewports
+- Reduced-motion and increased-contrast preferences
+- GitHub Pages metadata, manifest, favicon, social preview, robots, and sitemap
 
-### Prerequisites
+## Setup and scripts
 
-- Node.js 16+
-- npm or yarn
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/DPINE8302/Terminal.git
-   cd Terminal
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Run the development server**
-   ```bash
-   npm run dev
-   ```
-
-4. **Open your browser**
-   Navigate to [http://localhost:3000](http://localhost:3000)
-
-## 🚀 Deployment
-
-This project is configured for automatic deployment to GitHub Pages.
-
-### GitHub Pages Deployment
-
-1. **Enable GitHub Pages** in your repository settings
-2. **Set source** to "GitHub Actions"
-3. **Push to main branch** - The GitHub Actions workflow will automatically build and deploy
-
-The deployment workflow:
-- Runs on every push to the main branch
-- Builds the project using Vite
-- Deploys to GitHub Pages automatically
-
-### Manual Deployment
+Requires Node.js 20 or later.
 
 ```bash
-# Build for production
-npm run build
-
-# Preview the build locally
-npm run preview
+git clone https://github.com/DPINE8302/Terminal-2.0.git
+cd Terminal-2.0
+npm ci
+npm run dev
 ```
 
-## 📱 Available Commands
+| Script | Purpose |
+| --- | --- |
+| `npm run dev` | Start Vite at `http://localhost:3000` |
+| `npm run lint` | Run ESLint with zero warnings allowed |
+| `npm run test` | Run Vitest once |
+| `npm run test:watch` | Run tests in watch mode |
+| `npm run build` | Create the production build in `dist/` |
+| `npm run preview` | Preview the production build at port 4173 |
 
-- `whoami` - Display system information and personal details
-- `skills` - Show technical skills and proficiencies  
-- `projects` - Browse portfolio projects
-- `contact` - Get contact information
-- `help` - Show available commands
-- `clear` - Clear all windows
+## Terminal commands
 
-## 🎨 Themes
+`help`, `home`, `whoami`, `about`, `skills`, `projects`, `achievements`, `creative`, `contact`, `socials`, `clear`, `theme dark|light|amber`, `date`, `github`, `instagram`, and `youtube`.
 
-Switch between 6 different retro themes:
-- **Matrix** (Default) - Classic green-on-black terminal
-- **Fire** - Orange/red color scheme
-- **Ice** - Cool blue tones
-- **Neon** - Bright pink/cyan colors
-- **Error** - Red warning theme
-- **Inverse** - Light mode variant
+Use ↑ and ↓ for command history and Tab for completion.
 
-## 🏗️ Project Structure
+## Project structure
 
-```
+```text
 src/
-├── components/           # React components
-│   ├── content/         # Window content components
-│   ├── CanvasBackground.jsx
-│   ├── Header.jsx
-│   ├── Window.jsx
-│   └── ...
-├── data/                # Content data
-│   └── content.json
-├── store/               # State management
-│   └── useStore.js
-└── index.css           # Global styles and themes
+├── data/portfolio.js      # Editable source of truth
+├── lib/commands.js        # Pure command parser
+├── store/useStore.js      # Persisted theme and window state
+├── test/setup.js          # Browser test environment
+├── App.jsx                # Product interface
+└── index.css              # Design system and responsive layout
+public/                    # Static metadata and site assets
+.github/workflows/         # CI and GitHub Pages deployment
 ```
 
-## 🌟 About Kirati (Win)
+## Testing
 
-Grade 10 student from Bangkok, Thailand, passionate about:
-- Technology and programming
-- Robotics (Multiple national gold medals 2022-2024)
-- Filmmaking and photography
-- Web development and UI/UX design
+Tests cover application rendering, command parsing, known/unknown commands, clear, theme persistence, window opening, duplicate prevention, and closing. Pull requests run install, lint, tests, and build in CI.
 
-## 📞 Contact
+## Deployment
 
-- **Email**: contact@devw.space
-- **Website**: [devw.space](https://devw.space)
-- **GitHub**: [@DPINE8302](https://github.com/DPINE8302)
-- **Instagram**: [@Win.rn](https://www.instagram.com/Win.rn)
-- **Photography**: [@Win.albums](https://www.instagram.com/Win.albums)
-- **YouTube**: [Channel](https://www.youtube.com/channel/UCMQefq5ku1GHvTm50Ysixyg)
+`vite.config.js` uses the `/Terminal-2.0/` base path. `.github/workflows/deploy-pages.yml` builds and deploys with the official GitHub Pages actions after a successful push to `main`, or via manual dispatch. Configure repository Pages source as **GitHub Actions**. Pull requests never deploy.
 
-## 📄 License
+## Accessibility
 
-This project is open source and available under the MIT License.
+The interface uses semantic controls, visible keyboard focus, a labelled terminal input, polite live terminal output, safe external links, minimum mobile target sizing, reduced-motion support, and a high-contrast preference override. Dragging is supplemental: mobile panels and all commands work without it.
 
-## 🙏 Acknowledgments
+## Editing content
 
-- Inspired by retro terminal aesthetics
-- Built with modern React and web technologies
-- Thanks to the open source community
+Update `src/data/portfolio.js`. Keep claims factual and use `null` for unavailable project links; the UI omits unavailable actions. Do not add private contact information or secrets.
 
----
+## Known limitations
 
-**Made with ❤️ by Kirati Rattanaporn (Win)**
+- External profiles can change or become unavailable independently of this static site.
+- Window positions are intentionally session-only; theme preference is persisted.
+- GitHub Pages must be enabled once in repository settings before the first deployment.
 
-Version 1.5.2
-© 2025 Wiqnnc_. All Rights Reserved.
-Made with love by Win.
-**Version 1.5.2**  
-**© 2025 Wiqnnc_. All Rights Reserved.**  
-**Made with love by Win.**
+© 2026 Kirati Rattanaporn. Version 2.0.0.
