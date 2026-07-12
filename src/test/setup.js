@@ -1,0 +1,6 @@
+import '@testing-library/jest-dom/vitest'
+import { vi } from 'vitest'
+import { cleanup } from '@testing-library/react'
+import { afterEach } from 'vitest'
+afterEach(() => cleanup())
+Object.defineProperty(window, 'matchMedia', { writable: true, value: vi.fn().mockImplementation(() => ({ matches: false, addEventListener: vi.fn(), removeEventListener: vi.fn() })) })

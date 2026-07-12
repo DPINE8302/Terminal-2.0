@@ -1,16 +1,10 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/Terminal/',
-  server: {
-    port: 3000,
-    host: true
-  },
-  build: {
-    outDir: 'dist',
-    assetsDir: 'assets'
-  }
+  base: process.env.VERCEL ? '/' : '/Terminal-2.0/',
+  server: { port: 3000, host: true },
+  preview: { port: 4173, host: true },
+  test: { environment: 'jsdom', setupFiles: './src/test/setup.js', css: true }
 })

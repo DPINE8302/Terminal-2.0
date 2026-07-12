@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dpine8302.github.io/Terminal-2.0/sitemap.xml
